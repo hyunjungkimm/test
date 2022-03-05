@@ -1,14 +1,14 @@
-package com.example;
+package com.example.jpaTest;
 
-import com.example.entity.Member;
+import com.example.jpaTest.entity.Member;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import com.example.repository.MemberRepository;
-import com.example.repository.SellerRepository;
+import com.example.jpaTest.repository.MemberRepository;
+import com.example.jpaTest.repository.SellerRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

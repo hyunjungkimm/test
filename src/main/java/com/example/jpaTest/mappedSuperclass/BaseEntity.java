@@ -1,4 +1,4 @@
-package com.example.mappedSuperclass;
+package com.example.jpaTest.mappedSuperclass;
 
 import lombok.Data;
 

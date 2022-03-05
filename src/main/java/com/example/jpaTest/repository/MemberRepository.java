@@ -1,6 +1,6 @@
-package com.example.repository;
+package com.example.jpaTest.repository;
 
-import com.example.entity.Member;
+import com.example.jpaTest.entity.Member;
 import org.springframework.data.repository.CrudRepository;
 
 public interface MemberRepository extends CrudRepository<Member,Long> {

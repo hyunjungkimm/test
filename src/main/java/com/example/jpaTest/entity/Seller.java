@@ -1,7 +1,7 @@
-package com.example.entity;
+package com.example.jpaTest.entity;
 
 import lombok.Data;
-import com.example.mappedSuperclass.BaseEntity;
+import com.example.jpaTest.mappedSuperclass.BaseEntity;
 
 import javax.persistence.Entity;
 

@@ -1,6 +1,6 @@
-package com.example.repository;
+package com.example.jpaTest.repository;
 
-import com.example.entity.Seller;
+import com.example.jpaTest.entity.Seller;
 import org.springframework.data.repository.CrudRepository;
 
 public interface SellerRepository extends CrudRepository<Seller, Long> {
